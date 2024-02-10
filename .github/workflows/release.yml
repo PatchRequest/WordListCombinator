@@ -24,6 +24,9 @@ jobs:
             goos: darwin
           - goarch: arm64
             goos: windows
+          - goarch: arm64
+            goos: darwin
+            
     steps:
       - uses: actions/checkout@v4
       - uses: wangyoucao577/go-release-action@v1
