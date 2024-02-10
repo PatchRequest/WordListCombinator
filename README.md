@@ -11,7 +11,7 @@ WordListCombinator is an all-in-one binary just download it on the release page 
 - Receiver:   Wordlist which will get appended with new entries (Default: receiver.txt)
 - Sender: Wordlist which will be included in the receiver after run (Default: sender.txt)
 - Receiversize: Line count of the receiver wordlist (Default: 10,000,000)
-- fprate: Probability of false positive and therefore false rejection. Lower -> higher memory footprint (Default: 0.01 = 1%)  
+- fprate: Probability of false positive and therefore false rejection. lower fprate -> higher memory footprint (Default: 0.01 = 1%)  
 
 # Benchmarks
 My very unscientific benchmark on my M2 Mac Mini
