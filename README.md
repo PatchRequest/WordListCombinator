@@ -1,5 +1,5 @@
 # WordListCombinator
-[![Go](https://github.com/PatchRequest/WordListCombinator/actions/workflows/go.yml/badge.svg)](https://github.com/PatchRequest/WordListCombinator/actions/workflows/go.yml)
+[![Go](https://github.com/PatchRequest/WordListCombinator/actions/workflows/go.yml/badge.svg)](https://github.com/PatchRequest/WordListCombinator/actions/workflows/go.yml)  
 Patchy's WordListCombinator combines multiples Wordlists fast and with an ultra low memory footprint. The combined wordlist will not contain any duplicates. The efficiency is  achieved by using bloomfilters, a space-efficient probabilistic data structure.
 
 # Installation
