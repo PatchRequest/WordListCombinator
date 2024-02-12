@@ -1,6 +1,7 @@
 # WordListCombinator
 [![Go](https://github.com/PatchRequest/WordListCombinator/actions/workflows/go.yml/badge.svg)](https://github.com/PatchRequest/WordListCombinator/actions/workflows/go.yml)  
-Patchy's WordListCombinator combines multiples Wordlists fast and with an ultra low memory footprint. The combined wordlist will not contain any duplicates. The efficiency is  achieved by using bloomfilters, a space-efficient probabilistic data structure.
+Patchy's WordListCombinator combines multiples Wordlists fast and with an ultra low memory footprint. The combined wordlist will not contain any duplicates. A direct append of data to the wordlist in cracking tools such as Hashcat, or similar tools, is inefficient and wasteful of resources because these tools do not deduplicate the wordlist.
+The efficiency is  achieved by using bloomfilters, a space-efficient probabilistic data structure.
 
 # Installation
 WordListCombinator is an all-in-one binary just download it on the release page [here](https://link-url-here.org)
